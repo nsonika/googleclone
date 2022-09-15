@@ -1,0 +1,111 @@
+*{
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: arial, sans-serif;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	background-image: url("space.png");
+  background-size: cover;
+  color: white;
+}
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	margin-right: 30px;
+	margin-top: 14px;
+    color: white;
+}
+nav a {
+	font-size: 20px;
+	display: inline-block;
+	line-height: 24px;
+	font-weight: 500;
+	color:white;
+	cursor: pointer;
+	padding: 10px 10px;
+}
+nav a:hover {
+	text-decoration: underline;
+	opacity: .70;
+}
+nav img {
+	width: 50px;
+	margin: auto 7px;
+	cursor: pointer;
+}
+.profile{
+    border-radius: 5
+	vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+nav img:hover {
+	opacity: .8;
+}
+
+.logo {
+	display: block;
+	margin: 0px auto;
+	margin-top: 40px;
+    width: 40vw;
+}
+
+.search{
+	width: 70vw;
+	margin: 0px auto;
+	position: relative;
+	margin-top: 30px;
+	text-align: center;
+}
+.search .s-input {
+	display: block;
+	border: 1px solid #ddd;
+	color: rgba(0,0,0, 0.87);
+	font-size: 16px;
+	padding: 13px;
+	padding-left: 45px;
+	border-radius: 24px;
+	width: 100%;
+	transition: box-shadow 100ms;
+	outline: none;
+}
+
+.search .search-icon {
+	width: 20px;
+	opacity: .4;
+	position: absolute;
+	top: 13px;
+	left: 14px;
+}
+.search .mic-icon {
+	width: 20px;
+	opacity: .4;
+	position: absolute;
+	top: 13px;
+	right: 14px;
+}
+button {
+	border: 1px solid transparent;
+	padding: 9px 15px;
+	color: #666;
+	font-size: 14px;
+	border-radius: 5px;
+	display: inline-block;
+	margin-right: 10px;
+	margin-top:28px;
+	cursor: pointer;
+	transition: border-color 100ms;
+}
+button:hover {
+	border: 1px solid #aaa;
+background-color: rgb(190, 181, 181);
+}
+
+
